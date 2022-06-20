@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "analysis_project_root"
+author = "Richard Angell"
+author-email = "richardangell37@gmail.com"
+home-page = "https://github.com/richardangell/analysis-project-root"
+requires=[]
+requires-python=">=3.7"
+description-file="README.md"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pre-commit==2.19.0",
+    "pytest==7.1.2"
+]
+
+[tool.flit.metadata.urls]
+PyPI = "https://pypi.org/project/analysis-project-root/"
