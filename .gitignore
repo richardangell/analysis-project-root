@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# lock file for pipenv environment
+Pipfile.lock
